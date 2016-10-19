@@ -1,0 +1,121 @@
+﻿#Div0 {
+    float: left;
+    /*background-color: yellow;*/
+    width: 100%;
+    height: 80px;
+}
+
+#Div1 {
+    float: left;
+    /*background-color: Blue;*/
+    width: 20%;
+    height: 480px;
+}
+
+#Div2 {
+    /*background-color: Green;*/
+    width: 80%;
+    height: 480px;
+    float: right;
+}
+
+#lists li {
+    display: inline;  
+}
+
+#lists ul {
+    background-color: #C0C0C0;    
+}
+
+#MainMenu li a:hover, #MainMenu #MainMenu a {background:url(../img/menu_active.gif) top repeat-x;Color:#f00}
+#MainMenu li a{display:inline;font:16px ;line-height:1.2em;color:#FFFBD6;text-transform:uppercase;text-decoration:none;text-align:center;letter-spacing:-1px; Width:35px;font-style:normal;font-weight:300}
+
+nav {position:absolute;left:0;top:0}
+
+#menu {padding-top:100px; background-image:url(../img/Bt013_002_02_7.png)  ; width:160px;min-height:600px}
+#menu > li {width:100%;overflow:hidden;padding-bottom:4px}
+#menu li a{display:block;font:18px "Trebuchet MS", Arial, Helvetica, sans-serif;line-height:1.2em;color:#292929;text-transform:uppercase;text-decoration:none;text-align:left;letter-spacing:-1px;height:30px;font-style:normal;font-weight:400;padding-right:20px}
+#menu > li > a span {display:block;background:#fff;position:absolute;width:100%;height:100%;top:0;left:0}
+#menu > li > a strong {position:relative;display:block;padding:0 95px 0 80px;height:56px}
+#menu li a:hover, #menu .active a{color:#f00}
+#menu li a:hover, #menu #menu_active a {background:url(../img/menu_active.gif) top repeat-x ;color:#fff; width:auto}
+
+.auto-style1 {
+	font-family: 微軟正黑體;
+	font-size: large;
+	background-color: #800000;
+	text-align: center;
+	color: #FFFFFF;
+}
+.auto-style3 {
+	font-family: 微軟正黑體;
+	font-size: medium;
+	background-color: #FFFF99;
+	text-align: center;
+	color: #000000;
+}
+.auto-style4 {
+	font-family: 微軟正黑體;
+	font-size: medium;
+	background-color: #FFFBD6;
+	text-align: left;
+	color: #000000;
+}
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.auto-style6 {
+	font-size: small;
+	color: #FF0000;
+}
+.largebutton {
+	font-family: 微軟正黑體;
+    font-size: large;
+    font-weight:bold;
+}
+
+
+.auto-style7 {
+	font-size: small;
+	color: #008000;
+}
+
+
+.auto-style8 {
+	text-align: left;
+	font-family: 微軟正黑體;
+	text-decoration: underline;
+}
+.auto-style90 {
+	text-align: center;
+	font-family: 微軟正黑體;
+	background-color:#990000;
+	color:white;
+	width:100px;
+}
+.auto-style91 {
+	text-align: center;
+	font-family: 微軟正黑體;
+	background-color:#990000;
+	color:white;
+	width:250px;
+}
+
+.auto-style10 {
+	text-align: center;
+	font-family: 微軟正黑體;
+	background-color:#FFFBD6;
+	color:black;
+	width:100px;
+
+}
+.auto-style11 {
+    text-align: center;
+    font-family: 微軟正黑體;
+    background-color: #FFFBD6;
+    color: black;
+    width: 250px;
+}

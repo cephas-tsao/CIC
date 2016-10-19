@@ -1,0 +1,91 @@
+﻿        .Sht100 {
+	        width:100%;
+            background-color: #000000;
+        }
+        .Sht50 {
+	        width:50%;
+        }
+        .ShtRowTop {
+	        font-family: 微軟正黑體;
+	        font-size: large;
+	        background-color: #97CBFF;
+	        text-align: center;
+	        color: #000000;
+            height: 30px;
+        }
+        .ShtRowSingle {
+            background-color: #D2E9FF;
+        }
+        .ShtRowDouble {
+            background-color: #FFFFFF;
+        }
+        .ShtRowExecuteDeep {
+            background-color: #FFB5B5;
+        }
+        .ShtRowExecuteSoft {
+            background-color: #FFECEC;
+        }
+        .ShtCellCL {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            text-align: left;
+            vertical-align:central;
+            color: #000000;
+        }
+        .ShtCellCC {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            text-align: center;
+            vertical-align:central;
+            color: #000000;
+        }
+        .ShtCellCR {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            text-align: right;
+            vertical-align:central;
+            color: #000000;
+        }
+        .ShtCellTL{
+            font-family: 微軟正黑體;
+            font-size: medium;
+            text-align: left;
+            vertical-align:top;
+            color: #000000;
+        }
+        .ShtCellTC{
+            font-family: 微軟正黑體;
+            font-size: medium;
+            text-align: center;
+            vertical-align:top;
+            color: #000000;
+        }
+        .ShtCellTR{
+            font-family: 微軟正黑體;
+            font-size: medium;
+            text-align: right;
+            vertical-align:top;
+            color: #000000;
+        }
+        .ShtCellBL{
+            font-family: 微軟正黑體;
+            font-size: medium;
+            text-align: left;
+            vertical-align:bottom;
+            color: #000000;
+        }
+        .ShtCellBC{
+            font-family: 微軟正黑體;
+            font-size: medium;
+            text-align: center;
+            vertical-align:bottom;
+            color: #000000;
+        }
+        .ShtCellBR{
+            font-family: 微軟正黑體;
+            font-size: medium;
+            text-align: right;
+            vertical-align:bottom;
+            color: #000000;
+        }
+        

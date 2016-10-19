@@ -1,0 +1,13 @@
+﻿body {
+}
+
+.page {
+    width: 500px;
+    height: 800px;
+    border: 5px solid #444;
+    box-shadow: 1px 5px 5px #666;
+    position: absolute;
+    left: 50%;
+
+    margin-left: -250px;
+}

@@ -1,0 +1,7 @@
+D:\asp.net\CIC\MODEL\bin\Debug\MODEL.dll
+D:\asp.net\CIC\MODEL\bin\Debug\MODEL.pdb
+D:\asp.net\CIC\MODEL\bin\Debug\Utility.dll
+D:\asp.net\CIC\MODEL\bin\Debug\Utility.pdb
+D:\asp.net\CIC\MODEL\obj\Debug\MODEL.csprojResolveAssemblyReference.cache
+D:\asp.net\CIC\MODEL\obj\Debug\MODEL.dll
+D:\asp.net\CIC\MODEL\obj\Debug\MODEL.pdb

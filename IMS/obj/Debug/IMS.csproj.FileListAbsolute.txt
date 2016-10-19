@@ -1,0 +1,13 @@
+D:\asp.net\CIC\IMS\bin\IMS.dll
+D:\asp.net\CIC\IMS\bin\IMS.pdb
+D:\asp.net\CIC\IMS\bin\BLL.dll
+D:\asp.net\CIC\IMS\bin\DAL.dll
+D:\asp.net\CIC\IMS\bin\Utility.dll
+D:\asp.net\CIC\IMS\bin\BLL.pdb
+D:\asp.net\CIC\IMS\bin\DAL.pdb
+D:\asp.net\CIC\IMS\bin\Utility.pdb
+D:\asp.net\CIC\IMS\obj\Debug\IMS.csprojResolveAssemblyReference.cache
+D:\asp.net\CIC\IMS\obj\Debug\IMS.csproj.ResolveComReference.cache
+D:\asp.net\CIC\IMS\obj\Debug\IMS.dll
+D:\asp.net\CIC\IMS\obj\Debug\IMS.pdb
+D:\asp.net\CIC\IMS\bin\Common.Logging.dll

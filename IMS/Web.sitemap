@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+        <siteMapNode url="" title=""  description="" />
+        <siteMapNode url="" title=""  description="" />
+    </siteMapNode>
+</siteMap>-->
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/main.aspx" title="首頁"  description="">
+  <siteMapNode url="UsualMode.aspx" title="共用功能"  description="共用功能">
+    <siteMapNode url="~/PriceAnalysis.aspx" title="工料管理"  description="工料管理" /> 
+    <siteMapNode url="~/WordLibrary.aspx" title="常用詞庫" description="常用詞庫" />
+    <siteMapNode url="~/ConIllLibrary.aspx" title="施工元件" description="施工元件" />
+  </siteMapNode>
+  <siteMapNode url="~/FirmMode.aspx" title="分包商管理模組"  description="分包商管理模組">
+      <siteMapNode url="~/FirmView.aspx" title="分包商資料檢視"  description="分包商資料檢視" />
+      <siteMapNode url="~/FirmM.aspx" title="分包商基本資料管理"  description="分包商基本資料管理" />
+      <siteMapNode url="~/FirmAssess.aspx" title="遴選評估(初評)"  description="遴選評估(初評)" />
+      <siteMapNode url="~/FirmSecAssess.aspx" title="遴選評估(複評)"  description="遴選評估(複評)" />
+      <siteMapNode url="~/FirmCheck.aspx" title="分包商考核(初評)"  description="分包商考核(初評)" />
+      <siteMapNode url="~/FirmSecCheck.aspx" title="分包商考核(複評)"  description="分包商考核(複評)" />  
+  </siteMapNode>
+    <siteMapNode url="~/BidMode.aspx" title="標案管理"  description="標案管理">
+      <siteMapNode url="~/BidView.aspx" title="標案綜合檢視"  description="標案綜合檢視" />
+      <siteMapNode url="~/BidInfo1.aspx" title="未成案訊息管理"  description="未成案訊息管理" />
+      <siteMapNode url="~/BidInfoM.aspx" title="標案資訊管理"  description="標案資訊管理" />
+      <siteMapNode url="~/BidPreAssess.aspx" title="投標評估(初評)"  description="投標評估(初評)" />
+      <siteMapNode url="~/BidReAssess.aspx" title="投標評估(複評)"  description="投標評估(複評)" />
+      <siteMapNode url="~/BidRecord.aspx" title="決標紀錄"  description="決標紀錄" />
+      <siteMapNode url="~/BidSetting.aspx" title="常用資料維護"  description="常用資料維護" />
+      </siteMapNode>
+    <siteMapNode url="~/BidBudgetView.aspx" title="投標預算"  description="投標預算">
+      <siteMapNode url="~/BidLibrary.aspx" title="標案工料資料庫"  description="標案工料資料庫"/>
+      <siteMapNode url="~/BidBudgetEdit.aspx" title="投標預算建置編修"  description="投標預算建置編修" />
+      <siteMapNode url="~/RFQM.aspx" title="詢價單管理"  description="詢價單管理" />     
+    </siteMapNode>
+    <siteMapNode url="~/ProjectMode.aspx" title="專案管理"  description="專案管理">
+      <siteMapNode url="~/Projectnew.aspx" title="專案新增"  description="專案新增" />
+      <siteMapNode url="~/ProjectInfoM.aspx" title="專案資料管理"  description="專案資料管理" />
+      <siteMapNode url="~/ProjectInfoView.aspx" title="專案資料檢視"  description="專案資料檢視" />
+      <!--<siteMapNode url="~/ProLibrary.aspx" title="專案工料資料庫"  description="專案工料資料庫" />-->
+      <siteMapNode url="~/CalendarSetting.aspx" title="工作日設定"  description="工作日設定" />     
+    </siteMapNode>
+    <siteMapNode url="~/CBudgetMode.aspx" title="合約預算"  description="合約預算">
+      <siteMapNode url="~/CBudgetImport.aspx" title="代入合約預算"  description="代入合約預算" />
+      <siteMapNode url="~/CBudgetEdit.aspx" title="合約預算建置編修"  description="合約預算建置編修" />
+      <siteMapNode url="~/ProLibrary.aspx" title="合約工料資料庫"  description="合約工料資料庫" />
+      <siteMapNode url="~/CBudgetView.aspx" title="合約預算檢視"  description="合約預算檢視" />
+      <siteMapNode url="~/ChangeCBudget.aspx" title="合約預算變更"  description="合約預算變更" />
+    </siteMapNode>
+    <siteMapNode url="~/ExeBudgetMode.aspx" title="執行預算"  description="執行預算">
+      <siteMapNode url="~/ExeBudgetEdit.aspx" title="執行預算編輯"  description="執行預算編輯" />
+      <siteMapNode url="~/ExeBudgetView.aspx" title="執行預算檢視"  description="執行預算檢視" />
+      <siteMapNode url="~/ChangeEBudget.aspx" title="執行預算變更"  description="執行預算變更" />      
+    </siteMapNode>
+    <siteMapNode url="~/PurchaseMode.aspx" title="採購發包"  description="採購發包">
+      <siteMapNode url="~/SubBudgetAdd.aspx" title="新增分包預算"  description="新增分包預算" />
+      <siteMapNode url="~/SubBudgetEdit.aspx" title="分包預算編修"  description="分包預算編修" />
+      <siteMapNode url="~/SubInviteAdd.aspx" title="新增邀標單"  description="新增邀標單" />
+      <siteMapNode url="~/SubInviteM.aspx" title="邀標單管理"  description="邀標單管理" />
+      <siteMapNode url="~/SubBargain.aspx" title="協力廠商議價議約"  description="協力廠商議價議約" />
+      <siteMapNode url="~/SubContractAdd.aspx" title="新增分包合約"  description="新增分包合約" />
+      <siteMapNode url="~/SubContractM.aspx" title="分包合約管理"  description="分包合約管理" />
+      <siteMapNode url="~/PurchaseView.aspx" title="採購發包綜合檢視"  description="採購發包綜合檢視" />
+      <siteMapNode url="~/ChangeSubBudget.aspx" title="分包追加減"  description="分包追加減" />
+    </siteMapNode>
+    <siteMapNode url="~/FFundMode.aspx" title="包商計價"  description="包商計價">
+      <siteMapNode url="~/FFundView.aspx" title="分包商計價檢視"  description="分包商計價檢視" />
+      <siteMapNode url="~/FFundEdit.aspx" title="分包商計價增修"  description="分包商計價增修" />
+      <siteMapNode url="~/FFundDebitM.aspx" title="分包商扣款管理"  description="分包商扣款管理" />
+      <siteMapNode url="~/FFundIncreaseM.aspx" title="分包商加款管理"  description="分包商加款管理" />
+    </siteMapNode>
+    <siteMapNode url="~/OFundMode.aspx" title="業主請款"  description="業主請款">
+      <siteMapNode url="~/OFundView.aspx" title="業主計價檢視"  description="業主計價檢視" />
+      <siteMapNode url="~/OFundEdit.aspx" title="業主計價增修"  description="業主計價增修" />
+      <siteMapNode url="~/OFundDebitM.aspx" title="業主扣款管理"  description="業主扣款管理" />
+      <siteMapNode url="~/OFundIncreaseM.aspx" title="業主加款管理"  description="業主加款管理" />
+    </siteMapNode>
+    <siteMapNode url="~/ChangeMode.aspx" title="變更管理"  description="變更管理">      
+    </siteMapNode>
+    <siteMapNode url="~/FinanceMode.aspx" title="財務管理"  description="財務管理">
+    </siteMapNode>
+    <siteMapNode url="~/CompletionMode.aspx" title="竣工驗收"  description="竣工驗收">
+    </siteMapNode>
+    <siteMapNode url="~/IllMode.aspx" title="圖說管理"  description="圖說管理">
+    </siteMapNode>
+    <siteMapNode url="~/ProgressMode_new.aspx" title="進度管理"  description="進度管理">
+    </siteMapNode>
+    <siteMapNode url="~/DailyMode.aspx" title="日報管理"  description="日報管理">
+      <siteMapNode url="~/DailyFill.aspx" title="日報填寫"  description="日報填寫" />
+      <siteMapNode url="~/DailyView.aspx" title="日報檢視"  description="日報檢視" />
+      <siteMapNode url="~/DailyWeatherView.aspx" title="晴雨表總覽"  description="晴雨表總覽" />
+      <siteMapNode url="~/DailyWorkPicView.aspx" title="施工照片總覽"  description="施工照片總覽" />
+      <siteMapNode url="" title="檢驗取樣記錄總覽"  description="檢驗取樣記錄總覽" />
+      <siteMapNode url="" title="日報常用設定"  description="日報常用設定" />
+    </siteMapNode>
+    <siteMapNode url="~/KCheckMain.aspx" title="品質管理"  description="品質管理">
+      <siteMapNode url="~/KEngineeringList.aspx" title="自主檢查表管理"  description="自主檢查表管理" />
+      <siteMapNode url="~/KCheckListW.aspx" title="自主檢查表列表"  description="自主檢查表列表" />
+      <siteMapNode url="~/KCheckListC.aspx" title="自主檢查表日期填報"  description="自主檢查表日期填報" />
+      <siteMapNode url="~/KCheckListH.aspx" title="自主檢查表檢視"  description="自主檢查表檢視" />
+      <siteMapNode url="~/KCheckListL.aspx" title="缺失改善追蹤"  description="缺失改善追蹤" />   
+    </siteMapNode>
+    <siteMapNode url="#" title="決策支援"  description="決策支援">
+      <siteMapNode url="~/AI.aspx" title="人工智慧模式管理"  description="人工智慧模式管理" />
+      <siteMapNode url="~/AI_model.aspx" title="建築成本概算"  description="建築成本概算" />
+      <siteMapNode url="~/AI_model2.aspx" title="深開挖壁體變位預測"  description="深開挖壁體變位預測" />
+      <siteMapNode url="~/AI_model3.aspx" title="專案現金流量預測"  description="專案現金流量預測" />
+      <siteMapNode url="~/AI_model4.aspx" title="專案完工總成本預測"  description="專案完工總成本預測" />
+      <siteMapNode url="~/AI_model5.aspx" title="專案完工工期推論"  description="專案完工工期推論" />
+      <siteMapNode url="~/AI_model6.aspx" title="營造廠專業協力廠商評鑑"  description="營造廠專業協力廠商評鑑" />
+      <siteMapNode url="~/AI_CBR_SIM.aspx" title="工程爭議案例推論"  description="工程爭議案例推論" />
+    </siteMapNode>
+    <siteMapNode url="~/EngTechMode.aspx" title="工程技術"  description="工程技術">
+    </siteMapNode>
+    <siteMapNode url="~/PaperWorkMode.aspx" title="行政作業"  description="行政作業">
+    </siteMapNode>
+    <siteMapNode url="~/SystemManage.aspx" title="系統管理"  description="系統管理">
+    </siteMapNode>
+    <siteMapNode url="~/ProgressMode.aspx" title="功能測試"  description="功能測試">
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

@@ -1,0 +1,10 @@
+D:\asp.net\CIC\DAL\bin\Release\DAL.dll
+D:\asp.net\CIC\DAL\bin\Release\DAL.pdb
+D:\asp.net\CIC\DAL\bin\Release\MODEL.dll
+D:\asp.net\CIC\DAL\bin\Release\Utility.dll
+D:\asp.net\CIC\DAL\bin\Release\MODEL.pdb
+D:\asp.net\CIC\DAL\bin\Release\Utility.pdb
+D:\asp.net\CIC\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+D:\asp.net\CIC\DAL\obj\Release\DAL.csproj.ResolveComReference.cache
+D:\asp.net\CIC\DAL\obj\Release\DAL.dll
+D:\asp.net\CIC\DAL\obj\Release\DAL.pdb

@@ -1,0 +1,414 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="IMS.Site1" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+   
+<%--    <link href="../CSS/Main.css" rel="stylesheet" type="text/css" />--%>
+    <title>營建資訊雲 Construction Information Cloud</title>
+       <!-- Bootstrap -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="dist/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen" /> 
+<%--    <link rel="stylesheet" href="dist/font-awesome/css/font-awesome.min.css" />--%>
+    <link href="dist/css/styles.css" rel="stylesheet" media="screen" />
+     <link href="./CSS/Login.css" rel="stylesheet" type="text/css" />
+    　<link rel="stylesheet" type="text/css" media="screen and (max-device-width: 1100px)"
+　　　　href="./CSS/Login.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <style>
+     
+        .icon {
+            /*margin-left:20px;*/
+            /*margin-top:20px;*/
+            Width:120px; 
+        }
+        .div{
+white-space:nowrap;
+}
+        *{
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none outside none;
+ 
+  /*padding: 10px;*/  
+  /*text-align: center;*/
+}
+ul li {
+  display: block; 
+  zoom: 1; 
+  margin-right: -4px;
+  
+}
+#nav ul li{
+    margin:0px -20px 0px 0px;
+	
+}
+    </style>
+    <form id="form1" runat="server">
+          <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
+          <div class="navbar navbar-fixed-top" >
+        <div class="navbar-inner" >       
+            <div class="container-fluid"  style="background-color:#CAFFFF">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="hidden-desktop brand" href="#">
+
+                    <span>
+                        <img src="img/l.png" style="width: 24px; height: 24px" /></span>營建資訊管理系統
+                    <span style="font-size: 14px; text-align: start">Construction Information Cloud</span>
+                </a>                
+              
+                     
+                <div class="nav-collapse collapse" id="inner"> <div class="icon"> <asp:Image ID="Image2" runat="server" ImageUrl="~/img/mark.png"  ImageAlign="Left" CssClass="icon"  /></div><%--<div class="iconMobile"><asp:Image ID="Image1" runat="server" ImageUrl="~/img/mark.png"  ImageAlign="Left" /></div>--%>                
+                    <ul id="loginname" class="nav pull-right" style="margin-right:-20px;padding-right:10px; width:8%;display:block;text-indent:-20px;">
+                   
+                        <li class="dropdown">
+                            <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="icon-user"></i> <asp:Label ID="LoginCompany" runat="server" Font-Bold="True" Font-Names="微軟正黑體" Font-Size="Small"  CssClass="div" meta:resourcekey="LoginCompanyResource1"></asp:Label> <br />  
+                                <asp:Label ID="LoginName" runat="server" Text="訪客" Font-Bold="True" Font-Names="微軟正黑體" Font-Size="Medium" CssClass="div"  meta:resourcekey="LoginNameResource1"></asp:Label><i class="caret"></i>
+                            </a>                          
+                         
+                         
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a tabindex="-1" href="main.aspx">回首頁</a>
+                                </li>
+                              <%--  <li>
+                                    <a tabindex="-1" href="#">目前專案</a>
+                                </li>--%>
+                                <li>
+                                    <a tabindex="-1" href="#">個人設定</a>
+                                </li>
+                                <%--<li class="divider"></li>--%>
+                                <li>
+                                    <%--<a tabindex="-1" href="login.html">登出</a>--%>
+                                    <asp:LinkButton ID="LinkButton1" runat="server"  OnClick="Btn_logout_Click">登出</asp:LinkButton>                                    
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <asp:SqlDataSource ID="SqlDataSource2" runat="server"></asp:SqlDataSource>
+                   <%-- <div style="vertical-align:middle">--%>
+                      <nav id="nav">
+                      <ul class="nav text-center" id="navMenus" style="width:80%;">
+                    <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource2" OnItemDataBound="Repeater1_ItemDataBound">
+                        <ItemTemplate>
+                            <li  id="liclass" ><%--style="margin:0px -25px 0px 0px;"--%>
+                            <asp:Literal ID="Literal1" runat="server"></asp:Literal>                       
+                       <%--     <a class="hidden-desktop" href="#"><%# DataBinder.Eval(Container.DataItem, "Menu") %></a>--%>
+                            </li>
+                        </ItemTemplate>
+                    </asp:Repeater>
+                          </ul>
+                          </nav>
+                       <%-- </div>--%>
+                 
+               
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+          <script src="dist/js/jquery-1.11.1.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+
+
+    <script>
+        $(function () {
+            //document.getElementById("slider_scroll").style.display = 'block';
+            var w = $("#slider_content").width();
+
+            $("#sidenav").on('click', 'li', function () {
+                $("#sidenav li.active").removeClass("active");
+                // adding classname 'active' to current click li 
+                $(this).addClass("active");
+              
+            });
+            //====
+          
+            //if ($("#slider_scroll").css('left') == '-' + w + 'px') {
+            //    alert("3");
+            //    $("#slider_scroll").animate({ left: '0px' }, 800, 'swing');
+            //    document.getElementById("content1").style.width = "81%";
+            //    document.getElementById("content1").style.cssFloat = "right";
+            //    alert("4");
+            //}
+            //$('#slider_content').css('height', ($(window).height()) + 'px'); //將區塊自動撐滿畫面高度            
+
+            //$("#slider_tab").mouseover(function () { //滑鼠滑入時
+            //    if ($("#slider_scroll").css('left') == '-' + w + 'px') {
+            //        $("#slider_scroll").animate({ left: '0px' }, 600, 'swing');
+            //    }
+            //});
+
+            //$("#slider_content").mouseleave(function () {//滑鼠離開後
+            //    $("#slider_scroll").animate({ left: '-' + w + 'px' }, 600, 'swing');
+            //});
+            
+            $('#slider_tab').on('click', function () {//滑鼠click
+                var a = new Date();
+                a = new Date(a.getTime() + 1000 * 60 * 60 * 24 * 365);
+
+                if ($("#slider_scroll").css('left') == '-' + w + 'px') {
+                    $("#slider_scroll").animate({ left: '0px' }, 800, 'swing');                   
+                  
+                    if (($(window).width() <= 1024) && ($(window).height() <= 768)) {
+                        document.getElementById("content1").style.width = "77%";
+                        document.getElementById("content1").style.cssFloat = "right";
+                    } else if (($(window).width() <= 1280) && ($(window).height() <= 800)) {
+
+                        document.getElementById("content1").style.width = "81%";
+                        document.getElementById("content1").style.cssFloat = "right";
+
+                    } else if (($(window).width() <= 1280) && ($(window).height() <= 1024)) {
+
+                        document.getElementById("content1").style.width = "81%";
+                        document.getElementById("content1").style.cssFloat = "right";
+                    }
+                    else if (($(window).width() <= 1680)) {
+
+                        document.getElementById("content1").style.width = "86%";
+                        document.getElementById("content1").style.cssFloat = "right";
+                    }
+                    else if (($(window).width() > 1680)) {
+
+                        document.getElementById("content1").style.width = "88%";
+                        document.getElementById("content1").style.cssFloat = "right";
+                    }
+                    document.cookie = 'open; expires=' + a.toGMTString() + ';';
+                    //alert(document.cookie);
+                   
+
+                        $.ajax({
+                            type: "POST",
+
+                            url: '../Ajax/SidePage.aspx?action=open',
+
+                            //data: { "uid": uid },
+
+                            dataType: 'text',
+
+                            success: function (msg) {
+
+                                //alert("open");
+
+                            }
+                        })
+                  
+                }
+                else {
+                    $("#slider_scroll").animate({ left: '-' + w + 'px' }, 800, 'swing');
+                    document.getElementById("content1").style.width = "95%";
+                    document.getElementById("content1").style.cssFloat = "right";
+                    //document.cookie = "close";
+                    document.cookie = 'close; expires=' + a.toGMTString() + ';';
+                    //document.cookie = open + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT";
+                    //alert(document.cookie);
+                   
+
+                        $.ajax({
+                            type: "POST",
+
+                            url: '../Ajax/SidePage.aspx?action=close',
+
+                            //data: { "uid": uid },
+
+                            dataType: 'text',
+
+                            success: function (msg) {
+
+                                //alert("close");
+
+                            }
+                        })
+                    
+                }
+            })
+
+        });
+
+      
+        $(function () {
+         
+           
+            $("#navMenus").on('click', 'li', function () {
+               
+                $("#navMenus li.active").removeClass("active");
+                // adding classname 'active' to current click li 
+                $(this).addClass("active");
+                //var w = $("#slider_content").width();
+                //if ($("#slider_scroll").css('left') == '-' + w + 'px') {
+               
+                var w = $("#slider_scroll").width();
+               
+                //if ($("#slider_scroll").css('left') == '-' + w + 'px') {
+                //    $("#slider_scroll").animate({ left: '0px' }, 800, 'swing');
+                //    //document.getElementById("slider_scroll").animate({ left: '0px' }, 800, 'swing');
+                //    document.getElementById("content1").style.width = "81%";
+                //    document.getElementById("content1").style.cssFloat = "right";
+                //    alert("4-1");
+                //}
+              
+                             
+             
+            });
+
+
+        });
+
+       
+    </script> 
+   
+
+      
+   
+    <div class="container-fluid" id="content1"  style="margin-top:55px">
+   
+           <%-- <div id="content" style="position:absolute;left:1%;top:208px;width:98%;height:500px;">--%>
+          <div >
+                 <asp:SiteMapDataSource ID="SiteMapDataSource1" Runat="server"  />
+      <div class="row-fluid" >
+        <div class="span12">
+            <div class="row-fluid" >
+                <br />
+                <div class="navbar" >
+                    <div class="navbar-inner" >
+                        <ul class="breadcrumb">
+                         <%--   <i class="icon-chevron-left hide-sidebar" style="display:none;"><a href='#' title="Hide Sidebar" rel='tooltip'>&nbsp;</a></i>--%>
+                            <i class="icon-chevron-right show-sidebar" ><a href='#' title="Show Sidebar" rel='tooltip'>&nbsp;</a></i>
+                         
+                            <asp:SiteMapPath ID="SiteMapPath1" runat="server" class="divider"></asp:SiteMapPath>
+                         
+                        </ul>
+                       <div  style="text-align:right;width:100%; margin-top:-15px">目前專案：  <%=Session["ProjectName"] !=null ?Session["ProjectName"].ToString():"" %></div> 
+                    </div>
+                </div>
+            </div>
+            <div class="row-fluid" >
+                <!-- block -->
+               <%-- <div class="block">--%>
+                 <%--   <div class="navbar navbar-inner block-header">
+                      <div class="muted pull-left">
+                            <i class="fa fa-rss"></i><%=SiteMap.CurrentNode != null ? SiteMap.CurrentNode.Title : ""%>
+                        </div>
+                    </div>--%>
+                    <div class="block-content collapse in"  id="content"><%--style="margin-top:-10px"--%>
+                        <div class="row-fluid padd-bottom" >
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+              </div>
+  </div>
+    </div>
+</div>
+       </div>
+                </div>
+                <!-- /block -->
+            </div>
+        
+<%--    </div>--%>
+            
+         </form>
+    <script>
+        var w = $("#slider_scroll").width();
+        $(document).ready(function () {
+
+            $.ajax({
+               type: 'GET',
+
+               url: '../Ajax/sidepage.aspx?act=getUserMessageHistory&rnd='+Math.random(),
+                //data: { "data":result},
+                //data: { "uid": uid },
+
+               dataType: "json",
+               //dataType: 'text',
+                success: function (data) {
+                    // Call this function on success
+                    //alert(data.userMessageHistory);
+                    someFunction(data);
+                    //return data;
+                },
+                //success: function (msg) {
+
+                //    alert("更新成功");
+
+                //}
+            })
+
+
+            function someFunction(data) {
+                if (data.userMessageHistory == '1') {
+                    if ($("#slider_scroll").css('left') == '-' + w + 'px') {
+                        $("#slider_scroll").animate({ left: '0px' }, 800, 'swing');
+                        var width = $(window).width();
+                        var height = $(window).height();
+                                    
+                  
+                            if (($(window).width() <= 1024) && ($(window).height() <= 768)) {
+                                document.getElementById("content1").style.width = "77%";
+                                document.getElementById("content1").style.cssFloat = "right";
+                            } else if(($(window).width() <= 1280) && ($(window).height() <= 800)){
+
+                                document.getElementById("content1").style.width = "81%";
+                                document.getElementById("content1").style.cssFloat = "right";
+                           
+                            } else if(($(window).width() <= 1280) && ($(window).height() <= 1024)){
+
+                                document.getElementById("content1").style.width = "81%";
+                                document.getElementById("content1").style.cssFloat = "right";
+                            }
+                            else if (($(window).width() <= 1680)) {
+
+                                document.getElementById("content1").style.width = "86%";
+                                document.getElementById("content1").style.cssFloat = "right";
+                            }
+                            else if (($(window).width() > 1680)) {
+
+                                document.getElementById("content1").style.width = "88%";
+                                document.getElementById("content1").style.cssFloat = "right";
+                            }
+                        //document.cookie = 'open; expires=' + a.toGMTString() + ';';
+                        //alert(document.cookie);
+                    }
+                }
+                else {
+
+                    $("#slider_scroll").animate({ left: '-' + w + 'px' }, 800, 'swing');
+                    document.getElementById("content1").style.width = "95%";
+                    document.getElementById("content1").style.cssFloat = "right";
+                }
+            }
+            //var a = new Date();
+            //a = new Date(a.getTime() + 1000 * 60 * 60 * 24 * 365);
+          
+            //if (document.cookie == '' || document.cookie == 'open' || document.cookie == 'open; yPos=!~0~!' || document.cookie =='yPos=!~0~!') {
+            //    if ($("#slider_scroll").css('left') == '-' + w + 'px') {
+            //        $("#slider_scroll").animate({ left: '0px' }, 800, 'swing');
+
+            //        document.getElementById("content1").style.width = "81%";
+            //        document.getElementById("content1").style.cssFloat = "right";
+            //        document.cookie = 'open; expires=' + a.toGMTString() + ';';
+            //        //alert(document.cookie);
+            //    }
+            //}
+        });
+     
+    </script>
+   
+</body>
+</html>
+   

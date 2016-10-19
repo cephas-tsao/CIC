@@ -1,0 +1,1796 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CICIMS_wang
+</name>
+</assembly>
+<members>
+<member name="F:CICIMS_wang.Test.form1">
+	<summary>
+form1 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.Test.TextBox1">
+	<summary>
+TextBox1 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.Test.Button1">
+	<summary>
+Button1 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.Test.GridView1">
+	<summary>
+GridView1 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.Test.Label1">
+	<summary>
+Label1 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.Test.CICIMS">
+	<summary>
+CICIMS 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.Test.SqlDataSource1">
+	<summary>
+SqlDataSource1 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.Test.Button2">
+	<summary>
+Button2 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.Test.GridView2">
+	<summary>
+GridView2 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.Test.PlaceHolder1">
+	<summary>
+PlaceHolder1 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.Test.MultiView1">
+	<summary>
+MultiView1 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="P:CICIMS_wang.My.MyWebExtension.Computer">
+	<summary>
+ 傳回主機電腦的資訊。
+ </summary>
+</member><member name="P:CICIMS_wang.My.MyWebExtension.User">
+	<summary>
+ 傳回目前 Web 使用者的資訊。
+ </summary>
+</member><member name="P:CICIMS_wang.My.MyWebExtension.Request">
+	<summary>
+ 傳回要求物件。
+ </summary>
+</member><member name="P:CICIMS_wang.My.MyWebExtension.Response">
+	<summary>
+ 傳回回應物件。
+ </summary>
+</member><member name="P:CICIMS_wang.My.MyWebExtension.Log">
+	<summary>
+ 傳回 Asp 記錄物件。
+ </summary>
+</member><member name="T:CICIMS_wang.My.MyWebExtension">
+	<summary>
+ 用來定義可用於 Web 專案 My 命名空間中之屬性的模組。
+ </summary>
+	<remarks></remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.form1">
+	<summary>
+form1 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Panel2TOP">
+	<summary>
+Panel2TOP 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.ButtonProAdd">
+	<summary>
+ButtonProAdd 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.ButttonProUpdate">
+	<summary>
+ButttonProUpdate 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.ButtonProDelete">
+	<summary>
+ButtonProDelete 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.MultiView1">
+	<summary>
+MultiView1 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.View1">
+	<summary>
+View1 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Panel1">
+	<summary>
+Panel1 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label11">
+	<summary>
+Label11 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox11">
+	<summary>
+TextBox11 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label11s">
+	<summary>
+Label11s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label12">
+	<summary>
+Label12 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox12">
+	<summary>
+TextBox12 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label12s">
+	<summary>
+Label12s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label13">
+	<summary>
+Label13 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox13">
+	<summary>
+TextBox13 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label14">
+	<summary>
+Label14 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox14">
+	<summary>
+TextBox14 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label15">
+	<summary>
+Label15 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox15">
+	<summary>
+TextBox15 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.ButtonAddSave">
+	<summary>
+ButtonAddSave 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.MultiView21">
+	<summary>
+MultiView21 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.View20">
+	<summary>
+View20 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Panel20">
+	<summary>
+Panel20 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label20">
+	<summary>
+Label20 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.DropDownList20">
+	<summary>
+DropDownList20 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Button20">
+	<summary>
+Button20 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.SqlDataSource1">
+	<summary>
+SqlDataSource1 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.MultiView22">
+	<summary>
+MultiView22 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.View21">
+	<summary>
+View21 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton11">
+	<summary>
+LinkButton11 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton12">
+	<summary>
+LinkButton12 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton13">
+	<summary>
+LinkButton13 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton14">
+	<summary>
+LinkButton14 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton15">
+	<summary>
+LinkButton15 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Panel21">
+	<summary>
+Panel21 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label211">
+	<summary>
+Label211 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox211">
+	<summary>
+TextBox211 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label211s">
+	<summary>
+Label211s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label212">
+	<summary>
+Label212 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox212">
+	<summary>
+TextBox212 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label212s">
+	<summary>
+Label212s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label214">
+	<summary>
+Label214 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox214">
+	<summary>
+TextBox214 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label214s">
+	<summary>
+Label214s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label213">
+	<summary>
+Label213 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox213">
+	<summary>
+TextBox213 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label213s">
+	<summary>
+Label213s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label215">
+	<summary>
+Label215 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label215s">
+	<summary>
+Label215s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox215">
+	<summary>
+TextBox215 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label216">
+	<summary>
+Label216 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.DropDownList216">
+	<summary>
+DropDownList216 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.SqlDataSource2">
+	<summary>
+SqlDataSource2 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label216s">
+	<summary>
+Label216s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label217">
+	<summary>
+Label217 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.DropDownList217">
+	<summary>
+DropDownList217 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.SqlDataSource3">
+	<summary>
+SqlDataSource3 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label217s">
+	<summary>
+Label217s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label218">
+	<summary>
+Label218 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox218">
+	<summary>
+TextBox218 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label218s">
+	<summary>
+Label218s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label219">
+	<summary>
+Label219 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox219">
+	<summary>
+TextBox219 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label219s">
+	<summary>
+Label219s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label2110">
+	<summary>
+Label2110 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox2110a">
+	<summary>
+TextBox2110a 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox2110b">
+	<summary>
+TextBox2110b 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label2110s">
+	<summary>
+Label2110s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label2113">
+	<summary>
+Label2113 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox2113">
+	<summary>
+TextBox2113 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.RadioButtonList2113">
+	<summary>
+RadioButtonList2113 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label2113s">
+	<summary>
+Label2113s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label2111">
+	<summary>
+Label2111 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox2111">
+	<summary>
+TextBox2111 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.ImageButton2111">
+	<summary>
+ImageButton2111 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label2111s">
+	<summary>
+Label2111s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Calendar2111">
+	<summary>
+Calendar2111 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label2112">
+	<summary>
+Label2112 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox2112">
+	<summary>
+TextBox2112 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.ImageButton2112">
+	<summary>
+ImageButton2112 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label2112s">
+	<summary>
+Label2112s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Calendar2112">
+	<summary>
+Calendar2112 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.View22">
+	<summary>
+View22 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton21">
+	<summary>
+LinkButton21 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton22">
+	<summary>
+LinkButton22 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton23">
+	<summary>
+LinkButton23 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton24">
+	<summary>
+LinkButton24 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton25">
+	<summary>
+LinkButton25 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Panel22">
+	<summary>
+Panel22 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label221">
+	<summary>
+Label221 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox221">
+	<summary>
+TextBox221 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.ImageButton221">
+	<summary>
+ImageButton221 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label221s">
+	<summary>
+Label221s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Calendar221">
+	<summary>
+Calendar221 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label222">
+	<summary>
+Label222 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox222">
+	<summary>
+TextBox222 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.RadioButtonList222">
+	<summary>
+RadioButtonList222 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label222s">
+	<summary>
+Label222s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label223">
+	<summary>
+Label223 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox223">
+	<summary>
+TextBox223 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.ImageButton223">
+	<summary>
+ImageButton223 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label223s">
+	<summary>
+Label223s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Calendar223">
+	<summary>
+Calendar223 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label224">
+	<summary>
+Label224 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox224">
+	<summary>
+TextBox224 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.ImageButton224">
+	<summary>
+ImageButton224 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label224s">
+	<summary>
+Label224s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Calendar224">
+	<summary>
+Calendar224 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label225">
+	<summary>
+Label225 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox225">
+	<summary>
+TextBox225 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label225s">
+	<summary>
+Label225s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label226">
+	<summary>
+Label226 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label226s">
+	<summary>
+Label226s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox226">
+	<summary>
+TextBox226 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.View23">
+	<summary>
+View23 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton31">
+	<summary>
+LinkButton31 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton32">
+	<summary>
+LinkButton32 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton33">
+	<summary>
+LinkButton33 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton34">
+	<summary>
+LinkButton34 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton35">
+	<summary>
+LinkButton35 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Panel23">
+	<summary>
+Panel23 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.RadioButtonList230">
+	<summary>
+RadioButtonList230 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.SqlDataSource7">
+	<summary>
+SqlDataSource7 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label231">
+	<summary>
+Label231 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.DropDownList231">
+	<summary>
+DropDownList231 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.SqlDataSource4">
+	<summary>
+SqlDataSource4 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label231s">
+	<summary>
+Label231s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label232">
+	<summary>
+Label232 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label232s">
+	<summary>
+Label232s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.CheckBoxList232">
+	<summary>
+CheckBoxList232 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.SqlDataSource5">
+	<summary>
+SqlDataSource5 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.View24">
+	<summary>
+View24 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton41">
+	<summary>
+LinkButton41 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton42">
+	<summary>
+LinkButton42 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton43">
+	<summary>
+LinkButton43 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton44">
+	<summary>
+LinkButton44 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton45">
+	<summary>
+LinkButton45 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Panel24">
+	<summary>
+Panel24 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label241">
+	<summary>
+Label241 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox241">
+	<summary>
+TextBox241 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label241s">
+	<summary>
+Label241s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label246">
+	<summary>
+Label246 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox246">
+	<summary>
+TextBox246 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.ImageButton246">
+	<summary>
+ImageButton246 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label246s">
+	<summary>
+Label246s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Calendar246">
+	<summary>
+Calendar246 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label242">
+	<summary>
+Label242 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox242">
+	<summary>
+TextBox242 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label242s">
+	<summary>
+Label242s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label247">
+	<summary>
+Label247 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox247">
+	<summary>
+TextBox247 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.ImageButton247">
+	<summary>
+ImageButton247 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label247s">
+	<summary>
+Label247s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Calendar247">
+	<summary>
+Calendar247 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label243">
+	<summary>
+Label243 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox243">
+	<summary>
+TextBox243 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label243s">
+	<summary>
+Label243s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label248">
+	<summary>
+Label248 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox248">
+	<summary>
+TextBox248 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.ImageButton248">
+	<summary>
+ImageButton248 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label248s">
+	<summary>
+Label248s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Calendar248">
+	<summary>
+Calendar248 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label244">
+	<summary>
+Label244 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox244">
+	<summary>
+TextBox244 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label244s">
+	<summary>
+Label244s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label249">
+	<summary>
+Label249 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox249">
+	<summary>
+TextBox249 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.ImageButton249">
+	<summary>
+ImageButton249 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label249s">
+	<summary>
+Label249s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Calendar249">
+	<summary>
+Calendar249 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label245">
+	<summary>
+Label245 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox245">
+	<summary>
+TextBox245 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label245s">
+	<summary>
+Label245s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label2410">
+	<summary>
+Label2410 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox2410">
+	<summary>
+TextBox2410 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.ImageButton2410">
+	<summary>
+ImageButton2410 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label2410s">
+	<summary>
+Label2410s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Calendar2410">
+	<summary>
+Calendar2410 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.View25">
+	<summary>
+View25 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton51">
+	<summary>
+LinkButton51 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton52">
+	<summary>
+LinkButton52 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton53">
+	<summary>
+LinkButton53 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton54">
+	<summary>
+LinkButton54 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.LinkButton55">
+	<summary>
+LinkButton55 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Panel25">
+	<summary>
+Panel25 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label251">
+	<summary>
+Label251 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox251">
+	<summary>
+TextBox251 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label251s">
+	<summary>
+Label251s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label252">
+	<summary>
+Label252 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox252">
+	<summary>
+TextBox252 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label252s">
+	<summary>
+Label252s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label253">
+	<summary>
+Label253 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox253">
+	<summary>
+TextBox253 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label253s">
+	<summary>
+Label253s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label254">
+	<summary>
+Label254 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.TextBox254">
+	<summary>
+TextBox254 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label254s">
+	<summary>
+Label254s 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label255">
+	<summary>
+Label255 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Label255T">
+	<summary>
+Label255T 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.MultiView23">
+	<summary>
+MultiView23 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.View2save">
+	<summary>
+View2save 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Panel2SAVE">
+	<summary>
+Panel2SAVE 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.ButtonUpdate1Save">
+	<summary>
+ButtonUpdate1Save 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.MultiView3">
+	<summary>
+MultiView3 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.View3">
+	<summary>
+View3 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.Panel3">
+	<summary>
+Panel3 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.GridView1">
+	<summary>
+GridView1 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member><member name="F:CICIMS_wang.ProjectManagement.SqlDataSource6">
+	<summary>
+SqlDataSource6 控制項。
+</summary>
+	<remarks>
+自動產生的欄位。
+將移動欄位宣告從設計檔案修改為程式碼後置檔案。
+</remarks>
+</member>
+</members>
+</doc>

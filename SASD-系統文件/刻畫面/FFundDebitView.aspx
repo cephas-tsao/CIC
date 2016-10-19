@@ -1,0 +1,55 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="FFundDebitView.aspx.cs" Inherits="FFundDebitView" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./Style1.css" />
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <asp:Panel ID="Panel1" runat="server">
+        <table class="Table100">
+            <tr>
+                <td class="TableTop" colspan="7">分包商計價扣款明細檢視</td>
+            </tr>
+            <tr>
+                <td class="Table1">扣款事由</td>
+                <td class="Table1">扣款類型</td>
+                <td class="Table1">發生日期</td>
+                <td class="Table1">扣款金額</td>
+                <td class="Table1">稅金</td>
+                <td class="Table1">扣款總額</td>
+                <td class="Table1">記錄人員</td>
+            </tr>
+            <tr>
+                                            <td class="Table2LC">臨時水電費</td>
+                                            <td class="Table2CC">
+                                                                代支代付</td>
+                                            <td class="Table2CC">2015/10/1</td>
+                                            <td class="Table2RC">1,200.00</td>
+                                            <td class="Table2RC">0</td>
+                                            <td class="Table2RC">1,200.00</td>
+                                            <td class="Table2CC">王大遠</td>
+                                        </tr>
+            <tr>
+                <td class="Table2LC">點工</td>
+                <td class="Table2CC">代雇工扣款</td>
+                <td class="Table2CC">2015/10/15</td>
+                <td class="Table2RC">10,000.00</td>
+                <td class="Table2RC">500.00</td>
+                <td class="Table2RC">10,500.00</td>
+                <td class="Table2CC">王大遠</td>
+            </tr>
+        </table>
+    </asp:Panel>
+    </div>
+        
+    
+    </form>
+</body>
+</html>

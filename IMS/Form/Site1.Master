@@ -1,0 +1,83 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="IMS.Form.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../CSS/Main.css" rel="stylesheet" type="text/css" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="header" style="float:left;width:100%;height:200px;background-color:blue;">
+            <div style="position: absolute; TOP: 8px; LEFT: 0px; height:140px">
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/img/Left2.jpg" BorderWidth="0px" />
+            </div>
+            <div style="position:absolute;top:40px;left:70%;">
+                <asp:Label ID="LoginName" runat="server" Text="訪客" Font-Bold="True" Font-Names="微軟正黑體" Font-Size="Medium" ForeColor="#99FF33"></asp:Label>
+                <asp:Label ID="LoginWord1" runat="server" Text="(" Font-Bold="False" Font-Names="微軟正黑體" Font-Size="Small" ForeColor="Yellow"></asp:Label>
+                <asp:Label ID="LoginCompany" runat="server" Font-Bold="True" Font-Names="微軟正黑體" Font-Size="Small" ForeColor="Yellow"></asp:Label>
+                <asp:Label ID="LoginWord2" runat="server" Text=")" Font-Bold="False" Font-Names="微軟正黑體" Font-Size="Small" ForeColor="Yellow"></asp:Label>
+                <asp:Label ID="LoginWord3" runat="server" Text=" 您好!" Font-Bold="False" Font-Names="微軟正黑體" Font-Size="Medium" ForeColor="White"></asp:Label>
+                <asp:Button ID="Button1" runat="server" Text="登出" OnClick="Btn_logout_Click" />
+            </div>
+            <div style="position: absolute; TOP:70px; LEFT: 70%">
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
+                <asp:Label ID="Label1" runat="server" ForeColor="Yellow" Text="目前選擇之專案："></asp:Label>
+                <asp:DropDownList ID="Ddl_Project" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1" DataTextField="CodeName" DataValueField="PID" Width="250px" OnSelectedIndexChanged="Ddl_Project_SelectedIndexChanged">
+                </asp:DropDownList>
+                <asp:ImageButton ID="IB_ProjectSearch" runat="server" Height="16px" ImageUrl="~/IMG/Search.gif" OnClick="IB_ProjectSearch_Click" />
+                <br />
+                <div id="search_area" runat="server" visible="false">
+                <asp:Label ID="Label2" runat="server" ForeColor="Yellow" Text="專案關鍵字搜尋："></asp:Label>
+                <asp:TextBox ID="TB_Search" runat="server"></asp:TextBox>
+                <asp:Button ID="Btn_Search" runat="server" Text="搜尋" OnClick="Btn_Search_Click" />
+                <br />
+                </div>
+            </div>
+            <div style="position: absolute; top:100px;left: 200px;height:35px;">
+                <ul id="MainMenu">
+                    <li style="display:inline;"><asp:LinkButton ID="Module0" runat="server" Text="常用功能" Width="35px" Visible="false" PostBackUrl="~/UsualMode.aspx"></asp:LinkButton></li>
+                    <%--<li style="display:inline;"><asp:LinkButton ID="Module0" runat="server" Text="工料管理" Width="35px" Visible="false" PostBackUrl="~/PriceAnalysis.aspx"></asp:LinkButton></li>--%>
+                    <%--<li style="display:inline;"><asp:LinkButton ID="Module1" runat="server" Text="常用詞庫" Width="35px" Visible="false" PostBackUrl="~/WordLibrary.aspx"></asp:LinkButton></li>--%>
+                    <li style="display:inline;"><asp:LinkButton ID="Module1" runat="server" Text="包商管理" Width="35px" Visible="false" PostBackUrl="~/FirmMode.aspx"></asp:LinkButton></li>
+                    <li style="display:inline;"><asp:LinkButton ID="Module2" runat="server" Text="投標管理" Width="35px" Visible="false" PostBackUrl="~/BidMode.aspx"></asp:LinkButton></li>
+                    <li style="display:inline;"><asp:LinkButton ID="Module3" runat="server" Text="投標預算" Width="35px" Visible="false" PostBackUrl="~/BidBudgetView.aspx"></asp:LinkButton></li>
+                    <li style="display:inline;"><asp:LinkButton ID="Module4" runat="server" Text="專案管理" Width="35px" Visible="false" PostBackUrl="~/ProjectMode.aspx"></asp:LinkButton></li>
+                    <li style="display:inline;"><asp:LinkButton ID="Module5" runat="server" Text="合約預算" Width="35px" Visible="false" PostBackUrl="~/CBudgetImport.aspx"></asp:LinkButton></li>
+                    <li style="display:inline;"><asp:LinkButton ID="Module6" runat="server" Text="執行預算" Width="35px" Visible="false" PostBackUrl="~/ExeBudgetEdit.aspx"></asp:LinkButton></li>
+                    <%--<li style="display:inline;"><asp:LinkButton ID="Module8" runat="server" Text="施工元件" Width="35px" Visible="false" PostBackUrl="~/ConIllLibrary.aspx"></asp:LinkButton></li>--%>
+                    <li style="display:inline;"><asp:LinkButton ID="Module7" runat="server" Text="採購發包" Width="35px" Visible="false" PostBackUrl="~/PurchaseMode.aspx"></asp:LinkButton></li>
+                    <li style="display:inline;"><asp:LinkButton ID="Module8" runat="server" Text="包商計價" Width="35px" Visible="false" PostBackUrl="~/FirmFund.aspx"></asp:LinkButton></li>
+                    <li style="display:inline;"><asp:LinkButton ID="Module9" runat="server" Text="業主請款" Width="35px" Visible="false" PostBackUrl="~/OwnerFund.aspx"></asp:LinkButton></li>
+                    <li style="display:inline;"><asp:LinkButton ID="Module10" runat="server" Text="變更管理" Width="35px" Visible="false" PostBackUrl="~/ChangeMode.aspx"></asp:LinkButton></li>
+                    <li style="display:inline;"><asp:LinkButton ID="Module11" runat="server" Text="財務管理" Width="35px" Visible="false" PostBackUrl="~/FinanceMode.aspx"></asp:LinkButton></li>
+                    <li style="display:inline;"><asp:LinkButton ID="Module12" runat="server" Text="竣工驗收" Width="35px" Visible="false" PostBackUrl="~/CompletionMode.aspx"></asp:LinkButton></li>
+                    <%--<li style="display:inline;"><asp:LinkButton ID="Module13" runat="server" Text="圖說管理" Width="35px" Visible="false" PostBackUrl="~/IllMode.aspx"></asp:LinkButton></li>--%>
+                    <li style="display:inline;"><asp:LinkButton ID="Module13" runat="server" Text="進度管理" Width="35px" Visible="false" PostBackUrl="~/ProgressMode_new.aspx"></asp:LinkButton></li>
+                    <li style="display:inline;"><asp:LinkButton ID="Module14" runat="server" Text="日報管理" Width="35px" Visible="false" PostBackUrl="~/DailyView.aspx"></asp:LinkButton></li>
+                    <li style="display:inline;"><asp:LinkButton ID="Module15" runat="server" Text="品質管理" Width="35px" Visible="false" PostBackUrl="~/form/default.aspx"></asp:LinkButton></li>
+                    <li style="display:inline;"><asp:LinkButton ID="Module16" runat="server" Text="工程技術" Width="35px" Visible="false" PostBackUrl="~/EngTechMode.aspx" ></asp:LinkButton></li>
+                    <li style="display:inline;"><asp:LinkButton ID="Module17" runat="server" Text="行政作業" Width="35px" Visible="false" PostBackUrl="~/PaperWorkMode.aspx" ></asp:LinkButton></li>
+                    <li style="display:inline;"><asp:LinkButton ID="Module18" runat="server" Text="權限管理" Width="35px" Visible="false" PostBackUrl="~/SystemManage.aspx"></asp:LinkButton></li>
+                    <li style="display:inline;"><asp:LinkButton ID="Module19" runat="server" Text="功能測試" Width="35px" Visible="false" PostBackUrl="~/ProgressMode.aspx"></asp:LinkButton></li>
+                </ul>
+
+            </div>
+        </div>
+        
+    <div id="content" style="position:absolute;left:1%;top:208px;width:98%;height:500px;">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

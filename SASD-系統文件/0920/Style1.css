@@ -1,0 +1,375 @@
+﻿       
+        .TableTop {
+	        font-family: 微軟正黑體;
+	        font-size: large;
+	        background-color: #000079;
+	        text-align: center;
+	        color: #FFFFFF;
+            height: 30px;
+            border:#000000 1px solid; 
+        }
+        .Table100 {
+	        width:100%;
+            border-collapse: collapse;
+        }
+
+        .TableTop_Left {
+	        font-family: 微軟正黑體;
+	        font-size: large;
+	        background-color: #000079;
+	        text-align: left;
+	        color: #FFFFFF;
+            height: 30px;
+            border:#000000 1px solid; 
+        }
+        .TableLeftColumn {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #0000FF;
+            text-align: center;
+            color: #FFFFFF;
+            }
+        .Table1 {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #97CBFF;
+            text-align: center;
+            color: #000000;
+            border:#000000 1px solid; 
+            vertical-align:central;
+            width:135px;
+            }
+        .Table2 {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #ECF5FF;
+            text-align: left;
+            color: #000000;
+            vertical-align:top;
+            border:#000000 1px solid; 
+        }
+        .Table1L {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #97CBFF;
+            text-align: left;
+            color: #000000;
+            border:#000000 1px solid; 
+            vertical-align:central;
+            }
+        .Table2C {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #ECF5FF;
+            text-align: center;
+            color: #000000;
+            vertical-align:top;
+            border:#000000 1px solid; 
+        }
+        .Table2CC {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #ECF5FF;
+            text-align: center;
+            color: #000000;
+            vertical-align:central;
+            border:#000000 1px solid; 
+        }
+        .Table2RC {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #ECF5FF;
+            text-align: right;
+            color: #000000;
+            vertical-align:central;
+            border:#000000 1px solid; 
+        }
+        .Table2LC {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #ECF5FF;
+            text-align: left;
+            color: #000000;
+            vertical-align:central;
+            border:#000000 1px solid; 
+        }
+        .Table1R {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #97CBFF;
+            text-align: right;
+            color: #000000;
+            border:#000000 1px solid; 
+            vertical-align:central;
+            width:135px;
+            }
+        .Table2R {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #ECF5FF;
+            text-align: right;
+            color: #000000;
+            vertical-align:top;
+            border:#000000 1px solid; 
+        }
+        .TableTop2 {
+	        font-family: 微軟正黑體;
+	        font-size: medium;
+	        background-color: #CEC5D3;
+	        text-align: left;
+	        color: #006633;
+            border:#000000 1px solid; 
+        }
+        .TableTop2C {
+	        font-family: 微軟正黑體;
+	        font-size: medium;
+	        background-color: #CEC5D3;
+	        text-align: center;
+	        color: #006633;
+            border:#000000 1px solid; 
+        }
+        .TableTop2R {
+	        font-family: 微軟正黑體;
+	        font-size: medium;
+	        background-color: #CEC5D3;
+	        text-align: right;
+	        color: #006633;
+            border:#000000 1px solid; 
+        }
+        .Table0 {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #666699;
+            text-align: left;
+            color: #FFFFFF;
+            height: 30px;
+            border:#000000 1px solid; 
+        }
+        .Table0C {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #666699;
+            text-align: center;
+            color: #FFFFFF;
+            border:#000000 1px solid; 
+            }
+        .Table0R {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #666699;
+            text-align: right;
+            color: #FFFFFF;
+            border:#000000 1px solid; 
+            }
+        .LinkBtnA {
+            width:120px;
+            height:20px;
+            font-size:medium;
+            font-family:微軟正黑體;
+            border-top-left-radius:8px;
+            border-top-right-radius:8px;
+            text-align:center;
+            background-color:white;
+        }
+        .LinkBtnB {
+            width:120px;
+            height:20px;
+            font-size:medium;
+            font-family:微軟正黑體;
+            border-top-left-radius:8px;
+            border-top-right-radius:8px;
+            text-align:center;
+            background-color:#D2D2D2;
+        }
+        .LinkBtnALong {
+            width:160px;
+            height:20px;
+            font-size:medium;
+            font-family:微軟正黑體;
+            border-top-left-radius:8px;
+            border-top-right-radius:8px;
+            text-align:center;
+            background-color:white;
+        }
+        .LinkBtnBLong {
+            width:160px;
+            height:20px;
+            font-size:medium;
+            font-family:微軟正黑體;
+            border-top-left-radius:8px;
+            border-top-right-radius:8px;
+            text-align:center;
+            background-color:#D2D2D2;
+        }
+        .DDLlong {
+            font-size:medium;
+            font-family:微軟正黑體;
+            width:300px;
+            height:auto;
+        }
+        .DDLshort {
+            font-size:medium;
+            font-family:微軟正黑體;
+            width:150px;
+            height:auto;
+        }
+        .DDLfree {
+            font-size:medium;
+            font-family:微軟正黑體;
+            height:auto;
+            width:95%;
+        }
+        .BtnFree {
+            font-size:medium;
+            font-family:微軟正黑體;
+            height:25px;
+            }
+        .BtnLargeFree {
+            font-size:medium;
+            font-family:微軟正黑體;
+            height:35px;
+            font-weight:bold;
+        }
+        .BtnLargeShort {
+            font-size:medium;
+            font-family:微軟正黑體;
+            height:35px;
+            width:100px;
+            font-weight:bold;
+        }
+        .BtnLargeMedium {
+            font-size:medium;
+            font-family:微軟正黑體;
+            height:35px;
+            width:150px;
+            font-weight:bold;
+        }
+        .TBlong {
+            font-size:medium;
+            font-family:微軟正黑體;
+            height:25px;
+            width:300px;
+            }
+        .TBmiddle {
+            font-size:medium;
+            font-family:微軟正黑體;
+            height:25px;
+            width:150px;
+            }
+        .TBshort {
+            font-size:medium;
+            font-family:微軟正黑體;
+            height:25px;
+            width:75px;
+        }
+        .TB500 {
+            font-size:medium;
+            font-family:微軟正黑體;
+            height:25px;
+            width:500px;
+            }
+        .TBfree {
+            font-size:medium;
+            font-family:微軟正黑體;
+            width:90%;
+        }
+        .NoteText {
+	        font-size: small;
+	        color: #FF0000;
+        }
+        .RBLstyle {
+            font-size:larger;
+            font-family:微軟正黑體;
+            background-color: Transparent;
+            line-height:1.4em;  
+            margin:2px 25px 0 0; 
+        }
+        .ModeBtn {
+	        font-size:x-large;
+	        font-family:微軟正黑體;
+            background-color:#008CBA;
+            color:white;
+            height:185px;
+            width:300px;
+            font-weight:600;
+            border-radius:12px;
+            border: 2px solid #000000;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        .TableFun1L {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #97CBFF;
+            text-align: left;
+            color: #000000;
+            border:#000000 1px solid; 
+            vertical-align:central;
+            }
+        .TableFun1C {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #97CBFF;
+            text-align: center;
+            color: #000000;
+            border:#000000 1px solid; 
+            vertical-align:central;
+            }
+        .TableFun1R {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #97CBFF;
+            text-align: right;
+            color: #000000;
+            border:#000000 1px solid; 
+            vertical-align:central;
+            }
+        .TableFun2C {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #ECF5FF;
+            text-align: center;
+            color: #000000;
+            border:#000000 1px solid; 
+            vertical-align:central;
+            }
+        .TableFun2L {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #ECF5FF;
+            text-align: left;
+            color: #000000;
+            border:#000000 1px solid; 
+            vertical-align:central;
+            }
+        .TableFun2R {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #ECF5FF;
+            text-align: right;
+            color: #000000;
+            border:#000000 1px solid; 
+            vertical-align:central;
+            }
+        .Table1, .Table1R, .Table1L {
+}
+        label { display:inline-block; 
+                font-size:medium;
+                font-family:微軟正黑體;
+        }
+            radiobutton {
+                font-size:medium;
+                font-family:微軟正黑體;
+                background-color: Transparent;
+            }
+        input[type="radio"], input[type="checkbox"] {
+            margin:0px; 
+        }
+        .LBtnStyle {
+            color: #FFFFFF;
+            font-size:medium;
+            font-family:微軟正黑體;
+            text-decoration:underline;
+        }
+        
+        
+

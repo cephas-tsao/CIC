@@ -1,0 +1,9 @@
+D:\asp.net\CIC\BLL\bin\Release\BLL.dll
+D:\asp.net\CIC\BLL\bin\Release\BLL.pdb
+D:\asp.net\CIC\BLL\bin\Release\DAL.dll
+D:\asp.net\CIC\BLL\bin\Release\Utility.dll
+D:\asp.net\CIC\BLL\bin\Release\DAL.pdb
+D:\asp.net\CIC\BLL\bin\Release\Utility.pdb
+D:\asp.net\CIC\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+D:\asp.net\CIC\BLL\obj\Release\BLL.dll
+D:\asp.net\CIC\BLL\obj\Release\BLL.pdb

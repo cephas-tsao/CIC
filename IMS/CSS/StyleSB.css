@@ -1,0 +1,100 @@
+﻿        .SB_Table_M {
+            width:100%;
+            background-color: #6C6C6C;
+        }
+        .SB_RowTop_M {
+            background-color: #00A600;
+            font-family: 微軟正黑體;
+            font-size: medium;
+            text-align: center;
+            vertical-align:central;
+            color: #FFFFFF;
+        }
+        .SB_Row_M {
+            background-color: #A6FFA6;
+        }
+        /*.SB_TableUp_A {
+            width:100%;
+            background-color: #8E8E8E;
+            border-top:solid;
+            border-left:solid;
+            border-right:solid;
+            border-collapse:collapse;
+        }
+        .SB_TableDown_A {
+            width:100%;
+            background-color: #8E8E8E;
+            border-bottom:solid;
+            border-left:solid;
+            border-right:solid;
+            border-collapse:collapse;
+        }*/
+        .SB_Table_A {
+            width:100%;
+            background-color: #8E8E8E;
+            /*border:solid;
+            border-collapse:collapse;*/
+        }
+        .SB_Cell0C_A {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #B7FF4A;
+            text-align: center;
+            color: #000000;
+            }
+        .SB_Cell0L_A {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #B7FF4A;
+            text-align: left;
+            color: #000000;
+            }
+        .SB_Cell0R_A {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #B7FF4A;
+            text-align: right;
+            color: #000000;
+            }
+        .SB_Cell1C_A {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #E8FFC4;
+            text-align: center;
+            color: #000000;
+        }
+        .SB_Cell1R_A {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #E8FFC4;
+            text-align: right;
+            color: #000000;
+        }
+        .SB_Cell1L_A {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #E8FFC4;
+            text-align: left;
+            color: #000000;
+        }
+        .SB_Cell2C_A {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #FFFFCE;
+            text-align: center;
+            color: #000000;
+        }
+        .SB_Cell2R_A {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #FFFFCE;
+            text-align: right;
+            color: #000000;
+        }
+        .SB_Cell2L_A {
+            font-family: 微軟正黑體;
+            font-size: medium;
+            background-color: #FFFFCE;
+            text-align: left;
+            color: #000000;
+        }

@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Expires" content="Tue, 09 Dec 1997 00:00:00 GMT">
+<meta name="keywords" content="Photo Shop PhotoShop DHTML Dynamic HTML DynamicHTML CSS Cascading Style Sheet JavaScript Demo Cool Website Audi Carousel ?A ]p M~  Q? ?A">
+<meta name="Author" content="Audi:carousel@taiwan.com">
+<meta name="description" content="Photo Shop PhotoShop DHTML Dynamic HTML DynamicHTML CSS Cascading Style Sheet JavaScript Demo Cool Website Audi Carouseln ?A ]p M~  Q? ?A">
+<title>【卜維丰】分頁設計(3)-完整功能</title>
+<style type="text/css">
+@import url(menuTab.css);
+</style>
+<script type="text/javascript">
+function clearLinkDot() {
+	var i, a, main;
+	for(i=0; (a = document.getElementsByTagName("a")[i]); i++) {
+		if(a.getAttribute("onFocus")==null) {
+			a.setAttribute("onFocus","this.blur();");
+		}else{
+			a.setAttribute("onFocus",a.getAttribute("onFocus")+";this.blur();");
+		}
+		a.setAttribute("hideFocus","hidefocus");
+	}
+}
+
+function loadTab(obj,n){
+	var layer;
+	eval('layer=\'S'+n+'\'');
+
+	//將 Tab 標籤樣式設成 Blur 型態
+	var tabsF=document.getElementById('tabsF').getElementsByTagName('li');
+	for (var i=0;i<tabsF.length;i++){
+		tabsF[i].setAttribute('id',null);
+		eval('document.getElementById(\'S'+(i+1)+'\').style.display=\'none\'')
+	}
+
+	//變更分頁標題樣式
+	obj.parentNode.setAttribute('id','current');
+	document.getElementById(layer).style.display='inline';
+
+}
+</script>
+</head>
+<body onload="clearLinkDot();">
+<div id="tabsF">
+	<ul>
+		<li id="current"><a href="javascript://" onclick="loadTab(this,1);"><span>Link 1</span></a></li>
+		<li><a href="javascript://" onclick="loadTab(this,2);"><span>Link 2</span></a></li>
+		<li><a href="javascript://" onclick="loadTab(this,3);"><span>Link 3</span></a></li>
+		<li><a href="javascript://" onclick="loadTab(this,4);"><span>Link 4</span></a></li>
+		<li><a href="javascript://" onclick="loadTab(this,5);"><span>Link 5</span></a></li>
+	</ul>
+</div>
+<div id="tabsC">
+	<div id="S1" style="display:inline;">Link 1 內容，可以包含所有 HTML 標籤，甚至可以放置 IFRAME</div>
+	<div id="S2" style="display:none;">Link 2 內容，可以包含所有 HTML 標籤，甚至可以放置 IFRAME，這裡放了一張圖片
+		<p align="center"><img src="http://audi.tw/Blog/images/P1030915.jpg" alt="TU" width="320" height="240" /></p>
+	</div>
+
+	<div id="S3" style="display:none;">
+		<p>Link 3 內容，可以包含所有 HTML 標籤，甚至可以放置 IFRAME，這裡放了一個表單</p>
+		<form id="form1" name="form1" method="post" action="">
+			<label>
+			<input type="text" name="textfield" />
+			</label>
+				<label>
+				<input type="button" name="Submit" value="按鈕" />
+				</label>
+		</form>
+	</div>
+	<div id="S4" style="display:none;">Link 4 內容，可以包含所有 HTML 標籤，甚至可以放置 IFRAME，這裡放了一個 IFRAME
+		<p>
+			<iframe scrolling="Default" width="300" height="120"></iframe>
+		</p>
+	</div>
+	<div id="S5" style="display:none;">
+		<p>Link 5 內容，可以包含所有 HTML 標籤，甚至可以放置 IFRAME，這裡放了一個表格</p>
+		<table width="80%" border="1" align="center" cellpadding="2" cellspacing="1">
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+		</table>
+		</div>
+</div>
+</body>
+</html>

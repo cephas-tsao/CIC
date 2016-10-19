@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">此 Web 服務不符合 WS-I Basic Profile v1.1</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified">
+      <s:element name="Predict">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="model" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="NumofFeature" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="f1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f4" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f5" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f6" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f7" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f8" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f9" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f10" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f11" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f12" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f13" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f14" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f15" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f16" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f17" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f18" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f19" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="f20" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PredictResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PredictResult" type="ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="PredictSoapIn">
+    <wsdl:part name="parameters" element="Predict" />
+  </wsdl:message>
+  <wsdl:message name="PredictSoapOut">
+    <wsdl:part name="parameters" element="PredictResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="Predict">
+      <wsdl:input message="PredictSoapIn" />
+      <wsdl:output message="PredictSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Predict">
+      <soap:operation soapAction="/Predict" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Predict">
+      <soap12:operation soapAction="/Predict" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">此 Web 服務不符合 WS-I Basic Profile v1.1</wsdl:documentation>
+    <wsdl:port name="ServiceSoap" binding="ServiceSoap">
+      <soap:address location="http://140.118.5.165:84/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="ServiceSoap12">
+      <soap12:address location="http://140.118.5.165:84/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
